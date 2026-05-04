@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victory Group Malaysia</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* BACKGROUND IMAGE */
+    background: url('logo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pink { color: pink; text-align:center; }
+.blue { color: #00bfff; text-align:center; }
+.yellow { color: yellow; text-align:center; }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ebe5d;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Victory Group Malaysia</h1>
+
+<div class="pink">Victory Deco</div>
+<div class="blue">Victory Ads & Marketing</div>
+<div class="yellow">Victory Film</div>
+
+<p style="text-align:center;">Kindly submit your feedback</p>
+
+<form action="https://formspree.io/f/mlgzjnbr" method="POST">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  
+  <input type="email" name="email" placeholder="Your Email" required>
+  
+  <input type="text" name="contact" placeholder="Contact Number" required>
+
+  <textarea name="message" placeholder="Your Feedback" required></textarea>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+
+
+</div>
+
+</body>
+</html>
